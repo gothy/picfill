@@ -5,3 +5,5 @@ bower_components/
 dist/
 npm-debug.log
 *.css.map
+.DS_Store
+
