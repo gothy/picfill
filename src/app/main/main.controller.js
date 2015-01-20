@@ -8,7 +8,7 @@ const MAX_IMG_SIZE = 1000;
 
 class MainCtrl {
   constructor ($scope) {
-    $scope.link = `http://${window.location.hostname}/`;
+    $scope.link = `http://${window.location.host}/`;
     [$scope.width, $scope.height] = [200, 200];
     $scope.bgcolor = 'f7f7f7';
     $scope.textcolor = 'aaaaaa';

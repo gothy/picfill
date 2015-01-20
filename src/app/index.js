@@ -4,7 +4,7 @@
 import MainCtrl from './main/main.controller';
 // import AboutCtrl from './about/about.controller';
 
-import NavbarCtrl from '../components/navbar/navbar.controller';
+// import NavbarCtrl from '../components/navbar/navbar.controller';
 
 angular.module('picfill', 
   [
