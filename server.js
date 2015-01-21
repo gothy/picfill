@@ -19,7 +19,7 @@ function (req, res) {
 
   generate(width, height, bgcolor, textcolor, text, function(err, buffer) {
     if (err) {
-      res.sendStatus(500);
+      res.sendStatus(200);
     } else {
       res.set('Content-Type', 'image/png');
       res.set('Content-Length', buffer.length);
